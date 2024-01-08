@@ -22,14 +22,16 @@ function App() {
   const handleSubmint = e =>{
     e.preventDefault()
     setInputValue(inputLocation.current.value)
+    
   }
+  
 
   return (
    <div>
     <h1 className='header'></h1>
     <form className='form' onSubmit={handleSubmint}>
       <div className='form_item'>
-       <input className='form_input' ref={inputLocation} type="text" />
+       <input placeholder='Write an id between 1 and 126' className='form_input' ref={inputLocation} type="text" />
        <button className='form_btn'>Search</button>
       </div>
     </form>

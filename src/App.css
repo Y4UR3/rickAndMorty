@@ -7,21 +7,25 @@
 }
 .form{
     height: 15vh;
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 .form_item{
     height: 28px;
+    width: 300px;
     border-radius: 5px;
     overflow: hidden;
+    background-color:white
 }
 .form_input{
     height: 100%;
+    width: 240px;
     border: none;
 }
 .form_btn{
     height: 100%;
+    width: 60px;
     border: none;
     background-color: #7cf448;
     color: white;
